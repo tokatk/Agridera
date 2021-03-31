@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <title>RadishAll</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-content">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/Logo.png" alt="">
+                </div>
+                <div class="col-md-8 header-right">
+                    <div class="input-search">
+                        <input type="search" placeholder="Search" size=30px>
+                        <button type="submit"><img src="images/ico_search.svg" alt=""></button>
+                    </div>
+                    <input type="checkbox" class="toggleMenu" id="menu">
+                    <label for="menu" class="toggleMenu">
+                        <img src="images/menu.png" width="50px" height="50px" alt="">
+                    </label>
+                    <ul class="header-menu-list">
+                        <li class="header-menu-item"><a href="../homepage/Home.html">Home</a></li>
+                        <li class="header-menu-item"><a href="">Company Profile</a></li>
+                        <li class="header-menu-item"><a href="../tomatoAll/TomatoAll.html">Products</a></li>
+                        <li class="header-menu-item"><a href="">Services</a></li>
+                        <li class="header-menu-item"><a href="">R & D</a></li>
+                        <li class="header-menu-item"><a href="../contact/Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tomatoes-top-photo">
+        <img src="images/radish-top.jpg" alt="">
+    </div>
+
+    <div class="container" id=app>
+        <div class="content">
+            <div class="about-tomatoes">
+                <h1>Agridera Fresh Market Radish Hybrids</h1>
+                <div class="x-decoration">
+                    <img src="images/xxx.png" alt="">
+                </div>
+                <p> 
+                    Agridera aims to be one of the world's leading companies in the breeding, production, and marketing of radish seeds.
+                    <b>We invest intensively in research and development to provide solutions to growers and consumers in numerous countries
+                    around the world.</b>
+                    <br>
+                    In particular, we breed improved disease-resistant cultivars adapted to different markets globally.
+                </p>
+                <p> 
+                    Currently, emphasis is placed on combining Radish Yellow Leaf Curl Virus (TYLCV) and Radish Spotted Wilt Virus (TSWV)
+                    resistances with other soil borne diseases into superior radish breeding lines and hybrids. Moreover, comprehensive
+                    efforts are being undertaken to develop varieties resistance to TBRFV virus (Radish Brown Rugose Fruit Virus).
+                </p>
+                <p>
+                    In terms of horticultural traits, breeding is for earliness, different fruit sizes, firmness, red fruit color, flavor,
+                    crack resistance, shelf life, and high/low temperature fruit set. Combinations of quality features and disease
+                    resistance are sought in a variety of types, namely round and elongated shapes.
+                </p>
+                <div class="quote">
+                    <p>
+                        Agirdera Radish breeding programs are focusing on three main segments: Greenhouse Indeterminate Radishes,
+                        Open-field
+                        Indeterminate Radishes, and Bush Type Open-field Radishes.
+                    </p>
+                </div>
+            </div>
+
+            <div class="breedings">
+                <ul class="breedings-list">
+                    <li class="breedings-list-item">
+                        <h2>Greenhouse Radish Breeding Program</h2>
+                        <p>
+                            <b>This breeding is aimed for the Spanish and Turkish markets.</b>
+                            For single and cluster picks, round fruit shape and
+                            resistances of TYLCV, TSWV, Nematodes and FORL (Fusarium oxysporum f.sp. radicis-lycopersici). 
+                            Some hybrids may include more resistances, 
+                            such as Cladosporium and Leveillula Taurica (Lv).
+                        </p>
+                    </li>
+                    <li class="breedings-list-item">
+                        <h2>Open-field Indeterminate Radishes</h2>
+                        <p>
+                            <b>This breeding is for Brazilian, Moroccan, and Turkish markets.</b>
+                            The main focus is on large round shape fruits (200 grams
+                            plus); and resistances of TYLCV, TSWV, Nematodes and FORL. 
+                            In the near future, F3 (Fusarium oxysporum f.sp. lycopersici)
+                            will be included as basic resistance in our cultivars.
+                        </p>
+                    </li>
+                    <li class="breedings-list-item">
+                        <h2>Open-field Bush Type of Radishes</h2>
+                        <p>
+                            <b>This breeding is for Mediterranean markets.</b>  
+                            We breed round and elongated shapes, standard sizes (140- 180 grams), and
+                            beef sizes (min. 180 grams up to 300 grams and more). 
+                            We combine the resistances of TYLCV, TSWV and Nematodes as basic
+                            resistances in our hybrids. However, some hybrids may include more resistances, 
+                            such as Cladosporium and Leveillula Taurica (Lv).
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="tomato-varieties">
+                <div class="quote">
+                    <p>
+                        <b>Agridera operates through international and local distributers around the world.</b>
+                    </p>
+                </div>
+                <ul class="tomato-list">
+                    <li class="tomato-list-item" v-for="item in products">
+                        <a :href="'../tomatoOne/TomatoOne.html#'+item.id">
+                            <div class="img-wrapper">
+                                <img :src="'images/'+item.image" alt="">
+                            </div>
+                            <div class="tomato-varieties-subtitle">
+                                <h2>{{item.title}}</h2>
+                                <p>{{item.short_text}}</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="row footer-links">
+            <div class="col-md-8 footer-menu">
+                <ul class="footer-menu-list">
+                    <li class="footer-menu-item"><a href="">Profile</a></li>
+                    <li class="footer-menu-item"><a href="">Managment</a></li>
+                    <li class="footer-menu-item"><a href="">Products</a></li>
+                    <li class="footer-menu-item"><a href="">R&D</a></li>
+                    <li class="footer-menu-item"><a href="">Links</a></li>
+                    <li class="footer-menu-item"><a href="">Sitemap</a></li>
+                    <li class="footer-menu-item"><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 footer-socials">
+                <ul class="socials-list">
+                    <li class="socials-list-item">
+                        <a href=""><img src="images/Ico_in.png" alt=""></a>
+                    </li>
+                    <li class="socials-list-item">
+                        <a href=""><img src="images/Ico_inst.png" alt=""></a>
+                    </li>
+                    <li class="socials-list-item">
+                        <a href=""><img src="images/Ico_fb.png" alt=""></a>
+                    </li>
+                    <li class="socials-list-item">
+                        <a href=""><img src="images/Ico_tube.png" alt=""></a>
+                    </li>
+                    <li class="socials-list-item">
+                        <a href=""><img src="images/Ico_tw.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyrighted">
+            <h4>Agridera seeds & Agriculture LTD. © 2021</h4>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="../../js/main.js"></script>
+</body>
+</html>

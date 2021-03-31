@@ -1,0 +1,626 @@
+@media (max-width: 1920px)
+{
+    
+}
+
+@media (max-width: 1600px)
+{
+
+
+}
+
+@media (max-width: 1480px)
+{
+    .input-search{
+        font-size: 20px;
+    }
+
+    .input-search::after{
+        width: 420px;
+    }
+
+    .header-menu-item {
+        font-size: 21px;
+    }   
+
+    .products-container{
+        padding: 44px 6%;
+    }
+}
+
+@media (max-width: 1366px)
+{
+    header{
+        height: 823px;
+    }
+    
+}
+
+@media (max-width: 1280px)
+{
+    .vision-img{
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1024px)
+{
+
+    .header-content{
+        width: 100%;
+    }
+
+    .header-content .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .header-content .col-md-4{
+        width: unset;
+    }
+
+    .header-content .col-md-4 img{
+        width: auto;
+        height: 140px;
+    }
+
+    .header-right{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    label.toggleMenu{
+        display: block;
+        cursor: pointer;
+    }
+
+    input.toggleMenu:checked + label.toggleMenu ~ .header-menu-list{
+        display: flex;
+    }
+
+    .header-menu-list li:hover{
+        text-decoration: underline;
+    }
+
+    .toggleMenu img{
+        position: absolute;
+        top: -190px;
+        right: 30px;
+        margin-top: 27px;
+    }
+    .header-menu-list{
+        display: none;
+        position: absolute;
+        top: -165px;
+        right: -170px;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .header-menu-list li{
+        font-size: 20px;
+        text-align: left;
+        margin: 0;
+        padding: 4px;
+        width: 183px;
+        height: 35px;
+        align-items: center;
+        display: flex;
+    }
+
+    .input-search::after {
+        width: 340px;
+        margin-bottom: 0;
+    }
+
+    .header-right{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .input-search{
+        font-size: 20px;
+    }
+
+    .input-search input{
+        width: 300px;
+    }
+
+    .header-title{
+        margin-top: 130px;
+    }
+
+    .header-title h1{
+        font-size: 70px;
+        letter-spacing: 2px;
+        line-height: 90px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .header-title button{
+        padding: 20px 30px;
+        font-size: 20px;
+    }
+
+    .about-container{
+        background-image: none;
+    }
+
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .content-vision{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .content-vision-text{
+        width: 540px;
+        padding: 0;
+    }
+
+    .vision-img{
+        width: 540px;
+        height: 500px;
+        padding: 0;
+    }
+
+    .content-mission{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .content-mission-text{
+        width: 540px;
+        padding: 0;
+    }
+
+    .mission-img{
+        width: 540px;
+        height: 500px;
+        padding: 0;
+    }
+
+    .about-content h2{
+        font-size: 72px;
+        margin-top: 20px;
+    }
+
+    .about-content p{
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .activities-content{
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .activities-container{
+        margin-top: 70px;
+    }
+
+    .activities-content .row{
+        margin: 0;
+    }
+
+    .seeds-subtitle{
+        font-size: 24px;
+    }
+
+    .activities-list-item p{
+        font-size: 18px;
+    }
+
+    .footer-links{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .socials-list-item{
+        width: auto;
+        height: auto;
+    }
+
+    .footer-socials img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px)
+{
+    header{
+        height: 1024px;
+    }
+
+    .header-content .row .col-md-4 img {
+        height: 176px;
+    }
+
+    .header-content .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+    
+    .header-right{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .input-search{
+        margin-right: 0;
+        margin-top: 30px;
+    }
+
+    .input-search input {
+        width: 300px;
+    }
+
+    .input-search::after {
+        width: 335px;
+        margin-bottom: 0;
+    }
+
+    .toggleMenu img {
+        position: absolute;
+        top: -265px;
+        right: -120px;
+        z-index: 1000;
+    }
+
+    .header-menu-list {
+        top: -190px;
+        right: -321px;
+    }
+
+    .header-menu-list li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 455px;
+    }
+
+    .header-title {
+        height: auto;
+        margin-top: 0;
+        padding-bottom: 30px;
+    }
+
+    .header-title h1 {
+        font-size: 62px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        line-height: 82px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+
+    .products-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products-list-item{
+        padding: 20px;
+    }
+
+    .products-list-item img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .products-list-item p{
+        font-size: 32px;
+    }
+
+    .activities-content h2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 56px;
+    }
+
+    .activities-container{
+        height: unset;
+    }
+
+    .activities-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activities-list-item {
+        display: flex;
+        width: unset;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activities-list-item p{
+        font-size: 24px;
+    }
+
+    .seeds-subtitle{
+        font-size: 30px;
+        width: 50%;
+    }
+
+    .footer-menu{
+        display: none;
+    }
+
+    .socials-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .socials-list-item{
+        margin: 0;
+    }
+
+    .footer-links {
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-socials{
+        width: 400px;
+    }
+
+    .footer-socials img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 640px)
+{
+    header{
+        height: unset;
+    }
+
+    .header-title{
+        margin-top: 25px;
+    }
+
+    .toggleMenu img {
+        top: -225px;
+        right: -120px;
+    }
+
+    .header-right{
+        flex-direction: column;
+    }
+
+    .header-menu-list {
+        display: none;
+        position: unset;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .header-menu-list li{
+        width: 100%;
+    }
+
+    .input-search{
+        font-size: 24px;
+    }
+
+    #tomato-img{
+        position: relative;
+        top: -50px;
+    }
+
+    .header-title {
+        margin-top: 25px;
+    }
+
+    .header-title h1 {
+       margin-bottom: 40px;
+    }
+
+    .header-content .row {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .activities-content .col-md-4{
+        padding: 0;
+    }
+
+    .header-title h1 {
+        font-size: 43px;
+        line-height: 56px;
+    }
+
+    .header-menu-list{
+        right: 35px;
+    }
+
+    .toggleMenu img {
+        right: -25px;
+    }
+
+    .content-vision-text{
+        width: 95%;
+    }
+    
+    .content-mission-text{
+        width: 95%;
+    }
+
+    .vision-img{
+        width: 100%;
+        height: unset;
+    }
+
+    .mission-img{
+        width: 100%;
+        height: unset;
+    }
+
+    #about-img{
+        width: 95%;
+        height: auto;
+    }
+
+    .mission-play-img{
+        top: 37%;
+        left: 35%;  
+    }
+
+    .activities-list h3{
+        font-size: 28px;
+    }
+
+    .seeds-subtitle{
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .activities-list h3::after{
+        width: 100%;
+        border-bottom: 2px solid #57984C;
+    }
+
+    #crop{
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px)
+{
+    .header-menu-list {
+        right: 50px;
+    }
+
+    .header-menu-list li{
+        width: 260px;
+    }
+
+    .col-md-4{
+        padding: 0;
+    }
+
+    .toggleMenu img{
+        right: 0px;
+    }
+
+    .header-title {
+        margin-top: 40px;
+    }
+
+    .header-title h1{
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 320px)
+{
+    .header-content .row {
+        padding-top: 20px;
+    }
+
+    .header-content .row .col-md-4 img {
+        height: 10em;
+    }
+
+    .input-search input {
+        width: 250px;
+    }
+
+    .input-search::after {
+        width: 290px;
+        margin-bottom: 0;
+    }
+
+    .input-search{
+        width: 100%;
+    }
+
+    .header-menu-list {
+        top: -165px;
+    }
+
+    .header-menu-list li {
+        width: 240px;
+        height: 40px;
+    }
+    
+    .toggleMenu img {
+        top: -230px;
+    }
+
+    .header-title{
+        margin-top: 25px;
+    }
+
+    .header-title h1 {
+        font-size: 33px;
+        line-height: 40px;
+        margin-bottom: 28px;
+        font-weight: 500;
+    }
+
+    .activities-list-item {
+        width: 100%;
+    }
+
+    #tomato-img{
+        position: relative;
+        top: -92px;
+    }
+
+    .seeds-photo img{
+        width: 100%;
+    }
+
+    .seeds-subtitle{
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .footer-links {
+        padding: 15px;
+    }
+
+    .footer-copyrighted h4 {
+        font-size: 12px;
+    }
+}
