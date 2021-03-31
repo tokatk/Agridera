@@ -14,7 +14,7 @@ ul{
 .header{
     display: block;
     height: 850px;
-    background-image: url("../images/bg-top.png");
+    background-image: url("../../../images/bg-top.png");
 }
 
 .input-search{
@@ -149,7 +149,7 @@ ul{
 }
 
 .about-container{
-    background-image: url("../images/Union.png");
+    background-image: url("../../../images/Union_home.png");
     background-position-x: center;
     background-repeat: no-repeat;
 }

@@ -1,0 +1,20 @@
+{
+  "name": "agridera-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/tokatk/Agridera)"
+  },
+  "author": "Tkachenko Vitalii",
+  "license": "ISC"
+}
