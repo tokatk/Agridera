@@ -39,7 +39,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "Homepage.html",
+    "start_url": "Home.html",
     "scope": ".",
     "display": "standalone",
     "orientation": "portrait-primary",
