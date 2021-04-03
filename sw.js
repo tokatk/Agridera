@@ -4,15 +4,17 @@ self.addEventListener('install', function(event) {
         caches.open("static")
             .then(function(cache) {
                 console.log("precaching")
-                cache.add('pages/homepage/Home.html')
+                cache.add('pages/Homepage/Homepage.html')
                 cache.add('/')
             })
     )
 })
+
 self.addEventListener('activate', function(event) {
     console.log('[Service Worker] Activating Service Worker ...', event)
     return self.clients.claim()
 })
+
 self.addEventListener('fetch', function(event) {
     console.log('[Service Worker] Fetching something ...', event)
     event.respondWith(
@@ -27,3 +29,7 @@ self.addEventListener('fetch', function(event) {
     )
 })
 
+self.addEventListener('push', function(event) {
+    const notification = event.data.text();
+    self.registration.showNotification(notification, {})
+})
