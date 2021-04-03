@@ -1,0 +1,377 @@
+@media(max-width: 1280px)
+{
+    .header-content .row{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media(max-width: 1024px)
+{
+    .content{
+        padding: 0 20px;
+    }
+
+    .header-content .row{
+        margin: 0;
+    }
+
+    .header-content{
+        display: flex;
+        justify-content: space-between;
+        width: unset;
+    }
+
+    .header-content .col-md-8{
+        padding: 0;
+    }
+
+    .header-content .col-md-4{
+        width: unset;
+        padding: 0;
+    }
+    
+    .header-content .col-md-4 img{
+        height: 140px;
+    }
+    
+    .header{
+        height: unset;
+    }
+
+    .header-content .row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-content .col-md-2 img{
+        width: auto;
+        height: 150px;
+    }
+
+    .header-right{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    label.toggleMenu{
+        display: block;
+        cursor: pointer;
+    }
+
+    input.toggleMenu:checked + label.toggleMenu ~ .header-menu-list{
+        display: flex;
+    }
+
+    .toggleMenu img{
+        position: absolute;
+        top: -190px;
+        right: 30px;
+        margin-top: 27px;
+    }
+    .header-menu-list{
+        display: none;
+        position: absolute;
+        top: -165px;
+        right: -170px;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .header-menu-list li{
+        font-size: 20px;
+        text-align: left;
+        margin: 0;
+        padding: 4px;
+        width: 183px;
+        height: 35px;
+        align-items: center;
+        display: flex;
+    }
+
+    .header-menu-list li:hover{
+        background: #b3b3b3;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    #column-2{
+        padding-left: 30px;
+    }
+
+    .col-md-8 .form-item{
+        width: 100%;
+    }
+
+    .form-item select{
+        background-position-x: 560px;
+    }
+
+    .footer-links{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .socials-list-item{
+        width: auto;
+        height: auto;
+    }
+
+    .footer-socials img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media(max-width: 991px)
+{
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-md-8 .form-item{
+        width: 100%;
+    }
+
+    #column-2{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .col-md-8{
+        padding: 0 15px;
+    }
+
+    .form-item select {
+            background-position-x: 590px;
+    }
+
+}
+
+@media(max-width: 768px)
+{
+    .input-search::after{
+        margin-bottom: 15px;
+    }
+
+    .header-menu-list {
+        display: none;
+        position: unset;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+
+    .header-menu-list li{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer-menu{
+        display: none;
+    }
+
+    .socials-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .socials-list-item{
+        margin: 0;
+    }
+
+    .footer-links {
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-socials{
+        width: 400px;
+    }
+
+    .footer-socials img{
+        width: 50px;
+        height: 50px;
+    }   
+}
+
+@media(max-width: 640px)
+{
+    .title::after{
+        margin-bottom: 40px;
+    }
+
+    .form-item, .col-md-8 .form-item{
+        width: 450px;
+    }
+
+    .form-item select{
+        background-position-x: 410px;
+    }
+
+    .captcha{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #captcha{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0 20px 0;
+    }
+
+    #captcha p{
+        text-align: center;
+    }
+
+    #captcha img{
+        margin: 10px 0;
+    }
+
+    #captcha input{
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    form{
+        margin: 0;
+    }
+
+}
+
+@media(max-width: 480px)
+{
+    .form-item, .col-md-8 .form-item{
+        width: 350px;
+    }
+
+    .form-item select{
+        background-position-x: 310px;
+    }
+
+    .cart-item img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cart td:first-child{
+        padding: 0;
+    }
+
+    .cart td {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+
+    .cart-item h2{
+        font-size: 20px;
+    }
+
+    .cart-item p{
+        font-size: 15px;
+    }
+
+    .cross {
+        font-size: 64px;
+        width: 40px;
+        height: 40px;
+        border: none;
+    }
+
+    .cart-item .tdCross{
+        padding: 0;
+    }
+}
+
+@media(max-width: 400px)
+{
+    .footer-links .col-md-4{
+        padding: 0;
+    }
+
+    .header-content .col-md-2{
+        padding: 0;
+    }
+
+    .form-item, .col-md-8 .form-item{
+        width: 300px;
+    }
+
+    .form-item select{
+        background-position-x: 260px;
+    }
+
+    .cart td {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cart-item img{
+        width: 80px;
+        height: 80px;
+    }
+    
+}
+
+@media(max-width: 320px)
+{
+    .input-search input {
+        width: 250px;
+    }
+
+    .input-search::after {
+        width: 285px;
+        margin-bottom: 20px;
+    }
+
+    .input-search{
+        width: 100%;
+    }
+
+    .toggleMenu img{
+        right: 0px;
+    }
+
+    .footer-links {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .footer-copyrighted h4{
+        font-size: 12px;
+    }
+
+    .form-item, .col-md-8 .form-item{
+        width: 280px;
+    }
+
+    .form-item select{
+        background-position-x: 240px;
+    }
+
+    .title {
+        margin-top: 30px;
+    }
+
+    .title::after{
+        margin: 25px 0;
+    }
+}

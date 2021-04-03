@@ -1,8 +1,8 @@
 {
-  "name": "agridera",
+  "name": "agridera-site",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "dependencies": {
     "http-server": "^0.12.3",
     "jquery": "^3.6.0"
@@ -13,8 +13,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/seriksk1/Agridera)"
+    "url": "(https://github.com/tokatk/Agridera)"
   },
-  "author": "Skorin Serhii",
+  "author": "Tkachenko Vitalii",
   "license": "ISC"
 }
